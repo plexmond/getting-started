@@ -37,7 +37,6 @@ jobs:
             location: 'west europe'
             ports: '3000'
             
-            
             azure-file-volume-share-name: 'container-share'
             azure-file-volume-account-name: 'techniekstorageacc'
             azure-file-volume-account-key: ${{ secrets.ACCOUNT_KEY }}
